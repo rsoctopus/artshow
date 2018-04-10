@@ -8,25 +8,25 @@ body{
 }
 
 h1 {
-font-family: 'Rubik', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 120px;
 line-height: 100px;
-font-weight: 400;
+font-weight: 600;
 text-align: center;
 color: white;
 
 }
 
 h2 {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-size: 72px;
 	line-height: 80px;
-	font-weight: 400;
+	font-weight: 600;
 	text-align: center;
 }
 
 h3 {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: 300;
@@ -54,7 +54,7 @@ h3 {
 .audiobox {
 	position: relative;
 	margin-top: -1px;
-	height: 600px;
+	height: 650px;
 	width: 100vw;
 	float: left;
 
@@ -67,21 +67,26 @@ h3 {
 
 		#youtubelink {
 			margin-top: 60px;
-			margin-left: 30vw;
+			margin-left: 23vw;
 			height: 30vw;
-			width: 40vw;
-			background-color: white;
+			width: 54vw;
+			background-color: black;
 /*			box-shadow: 0px 8px 20px;*/
 		}
 
 		#artTitle {
 			margin-top: 30px;
+			font-style: italic;
 		}
 
 		#artistName {
 			margin-top: -50px;
-			text-transform: uppercase;
+			/*text-transform: uppercase;*/
 		}
+
+#flora {
+	height: 1000px;
+}
 
 
 .credits {
